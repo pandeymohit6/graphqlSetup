@@ -1,0 +1,23 @@
+{
+  "name": "graphql",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "type": "module",
+  "scripts": {
+    "start": "node dist/index.js",
+    "dev": "tsc-watch --onSuccess \"npm start\""
+  },
+  "devDependencies": {
+    "tsc-watch": "^7.2.1",
+    "typescript": "^7.0.2"
+  },
+  "dependencies": {
+    "@apollo/server": "^5.5.2",
+    "@as-integrations/express4": "^1.1.2",
+    "cors": "^2.8.6",
+    "express": "4",
+    "graphql": "^17.1.0",
+    "tsc": "^2.0.4"
+  }
+}
